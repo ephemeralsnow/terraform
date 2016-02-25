@@ -239,6 +239,7 @@ func Provider() terraform.ResourceProvider {
 			"aws_vpc_peering_connection":                   resourceAwsVpcPeeringConnection(),
 			"aws_vpc":                                      resourceAwsVpc(),
 			"aws_vpc_endpoint":                             resourceAwsVpcEndpoint(),
+			"aws_vpc_classiclink":                          resourceAwsVpcClassicLink(),
 			"aws_vpn_connection":                           resourceAwsVpnConnection(),
 			"aws_vpn_connection_route":                     resourceAwsVpnConnectionRoute(),
 			"aws_vpn_gateway":                              resourceAwsVpnGateway(),
